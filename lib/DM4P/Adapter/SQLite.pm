@@ -9,6 +9,8 @@ package DM4P::Adapter::SQLite;
 use strict;
 use warnings;
 
+our $VERSION='0.1';
+
 use DM4P::SQL::Dialects::SQLite;
 use DM4P::Connection::Server::SQLite;
 
